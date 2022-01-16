@@ -8,7 +8,7 @@ section {
 
 .game--title {
     font-size: 100px;
-    color: #d7a62f;
+    color: #c06704;
     margin: 10px auto;
 }
 
@@ -34,7 +34,7 @@ section {
 
 .game--status {
     font-size: 50px;
-    color: #d7a62f;
+    color: #c06704;
     margin: 20px auto;
 }
 
@@ -43,7 +43,15 @@ section {
     width: 200px;
     height: 50px;
     font-size: 25px;
-    color: #5586e2;
+    color:#1c04c0;
     box-shadow: 2px 2px 2px 2px #d86c23;
     border: 2px solid #d86c23;
+    border-radius: 12px;
+    transition-duration: 0.4s;
 }
+
+.game--restart:hover {
+    background-color: #04c0b2;
+    color: white;
+  }
+  
